@@ -1,0 +1,5 @@
+Original BCs: 
+    1. surInterfaceSolute: mixed, depending on the flux sign
+    2. subInterfaceSolute: mixed, depending on the flux sign
+
+zeroNetFluxVelocity: zero out the fluid flux across the interface. Otherwise in an enclosed domain the fluid solver complains about continuity error.
