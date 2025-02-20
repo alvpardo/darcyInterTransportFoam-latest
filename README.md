@@ -17,8 +17,6 @@ Therefore, both the solver and its supplements can be installed either as local 
 or as standard applications in the [**OpenFOAM**](https://www.openfoam.com/) installation directory (`$FOAM_APPBIN` or `$FOAM_LIBBIN` in the *Make/files* file). 
 In both cases, the code must be compiled using [**OpenFOAM**](https://www.openfoam.com/)'s compilation tool, `wmake`.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14901810.svg)](https://doi.org/10.5281/zenodo.14901810)
-
 ## Author ##
 
 **Pardo-Álvarez, Álvaro**  
