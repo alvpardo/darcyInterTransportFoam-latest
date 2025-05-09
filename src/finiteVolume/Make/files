@@ -1,0 +1,16 @@
+derivedFvPatchFields = fields/fvPatchFields/derived
+
+$(derivedFvPatchFields)/surInterfaceSolute/surInterfaceSoluteFvPatchScalarField.C
+$(derivedFvPatchFields)/subInterfaceSolute/subInterfaceSoluteFvPatchScalarField.C
+
+$(derivedFvPatchFields)/surInterfaceHeat/surInterfaceHeatFvPatchScalarField.C
+$(derivedFvPatchFields)/subInterfaceHeat/subInterfaceHeatFvPatchScalarField.C
+
+$(derivedFvPatchFields)/darcyGradHead/darcyGradHeadFvPatchScalarField.C
+$(derivedFvPatchFields)/surfaceHydrostaticHead/surfaceHydrostaticHeadFvPatchScalarField.C
+
+$(derivedFvPatchFields)/zeroNetFluxVelocity/zeroNetFluxVelocityFvPatchVectorField.C
+
+$(derivedFvPatchFields)/flowRateInletParabolicVelocity/flowRateInletParabolicVelocityFvPatchVectorField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libfiniteVolume_

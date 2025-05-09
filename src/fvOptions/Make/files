@@ -1,0 +1,3 @@
+sources/derived/VoFmeanVelocityForce/VoFmeanVelocityForce.C
+
+LIB = $(FOAM_USER_LIBBIN)/libfvOptions_
