@@ -119,15 +119,8 @@ scalar alphaWaterThres
     mixture.getOrDefault<scalar>("alphaWaterThres",0.5)
 );
 
-if (rigidWaterSurface)
-{
-    Info << "Rigid water surface " << rigidWaterSurface << "\n" << endl;
-}
-else
-{
-    Info << "Clipping of the air fraction: " << alphaAirClip << endl;
-    Info << "Water fraction threshold: " << alphaWaterThres << "\n" << endl;
-}
+Info << "Clipping of the air fraction: " << alphaAirClip << endl;
+Info << "Water fraction threshold: " << alphaWaterThres << "\n" << endl;
 
 volScalarField& alpha1(mixture.alpha1());
 volScalarField& alpha2(mixture.alpha2());
