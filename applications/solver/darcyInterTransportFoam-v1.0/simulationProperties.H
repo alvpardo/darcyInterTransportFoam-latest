@@ -42,7 +42,7 @@ if (soluteTransport)
 }
 
 // Fluid flux tolerance for the coupling of both domains
-/*scalar couplePhiTol
+scalar couplePhiTol
 (
     simulationProperties.getOrDefault<scalar>("couplePhiTol",1e-3)
 );
@@ -55,7 +55,7 @@ scalar couplePhiSoluteTol
     simulationProperties.getOrDefault<scalar>("couplePhiSoluteTol",1e-5)
 );
 
-Info << "    Advective scalar flux tolerance for the coupling of both domains = " << couplePhiSoluteTol << endl;*/
+Info << "    Advective scalar flux tolerance for the coupling of both domains = " << couplePhiSoluteTol << endl;
 
 // Solute coupling: whether to kill the diffusive flux
 bool ignoreDiffusiveFluxCoupling
