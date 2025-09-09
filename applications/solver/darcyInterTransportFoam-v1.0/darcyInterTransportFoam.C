@@ -54,7 +54,7 @@ Description
         The subsurface domain is assumed to be fully saturated.
 
 Author
-    Alvaro Pardo-Alvarez, 12.02.2025
+    Alvaro Pardo-Alvarez, 09.09.2025
     University of Neuchatel, Centre for Hydrogeology and Geothermics
 
 \*---------------------------------------------------------------------------*/
